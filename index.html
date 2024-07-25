@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Alejandro Velasquez</title>
+    <link rel="shortcut icon" href="logomin.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- *************************Navbar************************* -->
+    <header class="header">
+        <a href="#" class="logo"><img class="logo2" src="logo.png" alt="logo"></a>
+        <i class='bx bx-menu' id="menu" style='color:#ffffff'></i>
+        <nav class="navbar">
+            <a href="#home" style="--vlr:1" class="active">Inicio</a>
+            <a href="#projects" style="--vlr:3">Proyectos</a>
+            <a href="#skills" style="--vlr:4">Habilidades</a>
+            <a href="#contact" style="--vlr:5">Contacto</a>
+        </nav>
+    </header>
+    <!-- *************************Home Section************************* -->
+    <section class="home" id="home">
+        <div class="text-content">
+            <h1>Soy Alejandro Velasquez</h1>
+            <div class="text-animation">
+                <h2>Técnico - Hardware</h2>
+            </div>
+            <p>
+                Soy estudiante de la Unidad Educativa "Alessandro Volta", donde mi enfoque principal es el área de
+                Soporte Técnico. Además de mi interés académico, tengo una pasión por los deportes, especialmente el
+                boxeo, que practico regularmente para mantenerme activo y disciplinado.
+            </p>
+            <div class="btn-section">
+                <a href="#contact" style="height: 7vh;">
+                    <button class="btn">Hablemos</button>
+                </a>
+            </div>
+            <div class="social-media">
+                <a href="#">
+                    <i class='bx bxl-github' style="--vlr:7"></i>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61552820745091">
+                    <i class='bx bxl-facebook' style="--vlr:8"></i>
+                </a>
+            </div>
+        </div>
+        <img src="perfil1.jpg" alt="">
+    </section>
+
+    <section class="projects">
+        <h2 class="title" id="projects">Mis <span>Proyectos</span></h2>
+        <div class="project-container">
+            <!-- Proyecto 1 -->
+            <div class="project-card">
+                <h3>Proyecto 1</h3>
+                <img src="porfolio.jpg" alt="Proyecto 1">
+                <p>Portafolio personal creado con HTML, CSS y JavaScript para parcticar y demostrar las habilidades aprendidas en el 
+                    transcurso del año lectivo.</p>
+            </div>
+            <!-- Proyecto 2
+            <div class="project-card">
+                <h3>Proyecto 2</h3>
+                <img src="porfolio.jpg" alt="Proyecto 2">
+                <p>Descripción breve del Proyecto 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div> -->
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <h2 class="title">Mis <span>Habilidades</span></h2>
+        <div class="wrapper">
+            <div class="skill-content">
+                <h3 class="skill-title">Languajes</h3>
+                <div class="skill-box skill-box1">
+                    <div class="single-skill">
+                        <span class="topic">HTML</span>
+                        <span class="topic">90%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-1"></div>
+                    </div>
+                    <div class="single-skill">
+                        <span class="topic">CSS</span>
+                        <span class="topic">80%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-2"></div>
+                    </div>
+                    <div class="single-skill">
+                        <span class="topic">JavaScript</span>
+                        <span class="topic">40%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- *************************Contact Section************************* -->
+    <section class="contact" id="contact">
+        <h2 class="title">Formulario de <span>Contacto </span></h2>
+        <form action="#" id="">
+            <div class="input-box">
+                <input type="text" required placeholder="Nombre Completo">
+                <input type="email" required placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="tel" required placeholder="Número Telefonico">
+                <input type="email" required placeholder="Asunto">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+            <input type="submit" value="Enviar" class="btn">
+        </form>
+
+    </section>
+    <footer>
+        <div class="text">
+            <p>Copyright @ 2024 by Alejandro Velasquez</p>
+        </div>
+        <a href="#"> <i class='bx bx-up-arrow-alt'></i></a>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
